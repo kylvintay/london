@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>London</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Travel</a>
+        <div class="toggle"></div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#photo">Photo</a></li>
+            <li><a href=https://www.daisyyohoho.com/london-food />Food</a></li>
+            <li><a href=https://www.google.com/maps/place/%E8%8B%B1%E5%9C%8B%E5%80%AB%E6%95%A6/@51.528308,-0.3817765,10z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5073509!4d-0.1277583>location</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>London</h2>
+            <h3>Enjoy the trip</h3>
+            <a href="#" class="btn">About London</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About London</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>Welcome to London</h3>
+                <p>London is a leading global city. It is the world's largest financial centre alongside New York, and is home to the headquarters of more than 100 of Europe's 500 largest companies. It has the most international visitors of any city in the world.<br><br>The World Nuclear Association Symposium will be held at Central Hall Westminster. Many of London’s top attractions lie only a short distance from here, such as Trafalgar Square, the National Gallery, Piccadilly Circus, Leicester Square, Buckingham Palace and St. James’s Park. The location is also within London’s “theatreland” and close to many of the capital’s best pubs, clubs, restaurants and shops.</p>
+            </div>
+            <div class="w50">
+                <img src="images/img1.jpg">
+            </div>
+        </div>
+    </section>
+    <section class="services" id="photo">
+        <div class="heading white">
+            <h2>Photo london</h2>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="images/img2.jpg">
+                <h2>Big Ben</h2>
+                <p>Big Ben, tower clock, famous for its accuracy and for its massive bell.</p>
+                <a href="https://www.google.com/maps/search/Big+Ben/@51.5122485,-0.1452773,13z/data=!3m1!4b1">location</a>
+            </div>
+            <div class="servicesBx">
+                <img src="images/img3.jpg">
+                <h2>Buckingham Palace</h2>
+                <p>Buckingham Palace is the London residence and administrative headquarters of the monarch of the United Kingdom</p>
+                <a href="https://www.google.com/maps/search/Buckingham+Palace/@51.5122381,-0.1452773,13z/data=!3m1!4b1">location</a>
+            </div>
+            <div class="servicesBx">
+                <img src="images/img4.jpg">
+                <h2>Westminster Abbey</h2>
+                <p>Westminster Abbey, formally titled the Collegiate Church of Saint Peter at Westminster, is a large, mainly Gothic abbey church in the City of Westminster.</p>
+                <a href="https://www.google.com/maps/place/%E8%A5%BF%E6%95%8F%E5%AF%BA/@51.4993815,-0.1286692,18z/data=!3m1!4b1!4m5!3m4!1s0x487604c4ba43352f:0xda8effa2059b537a!8m2!3d51.4986769!4d-0.1289446">location</a>
+            </div>
+            <div class="servicesBx">
+                <img src="images/img5.jpg">
+                <h2>Tower Bridge</h2>
+                <p>Tower Bridge is a combined bascule and suspension bridge in London, built between 1886 and 1894.</p>
+                <a href="https://www.google.com/maps/search/Tower+Bridge/@51.5066666,-0.0902977,15z/data=!3m1!4b1">location</a>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function() {
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+    </script>
+</body>
+
+</html>
